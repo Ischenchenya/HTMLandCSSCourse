@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    /* 权重: 
+     div: 0 0 0 1
+     ul : 0 0 0 1
+     li : 0 0 0 1
+     --------------
+    结果: 0 0 0 3
+     */
+    div ul li {
+      color: pink;
+    }
+
+    /* 权重: 每个位置虽然相加了 但是每个位置 绝不进位 
+     .lists: 0 0 1 0
+     li    : 0 0 0 1
+     --------------
+    结果:    0 0 1 1
+     */
+
+    .lists li {
+      color: red;
+    }
+
+    /* 权重: 每个位置虽然相加了 但是每个位置 绝不进位 
+     ul: 0 0 0 1
+     li: 0 0 0 1
+     --------------
+    结果:0 0 0 2
+     */
+
+    ul li {
+      color: green;
+    }
+
+    /* 权重: 每个位置虽然相加了 但是每个位置 绝不进位 
+     ul: 0 0 0 1
+     li: 0 0 0 1
+     --------------
+    结果:0 0 0 2
+     */
+    div li {
+      color: orange
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <ul class="lists">
+      <li>窗前明月光</li>
+      <li>疑是地上霜</li>
+      <li>举头望明月</li>
+      <li>低头思故乡</li>
+    </ul>
+  </div>
+</body>
+
+</html>
