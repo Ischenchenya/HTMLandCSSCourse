@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>动画结束时的状态 animation-fill-mode</title>
+  <style>
+    .cube {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -250px;
+      margin-top: -250px;
+      width: 500px;
+      height: 500px;
+      border: 1px solid #ff0000;
+      box-sizing: border-box;
+    }
+
+    .ball {
+      position: absolute;
+      top: -8px;
+      left: -8px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: hotpink;
+
+      /* 调用动画
+        属性: animation: 动画名称 动画持续时间
+       */
+      /* animation: move  4s; */
+      animation-name: move;
+      animation-duration: 4s;
+
+      /* 动画速度
+      animation-timing-function: ease ease-in ease-out ease-in-out linear
+       */
+      /* animation-timing-function: linear; */
+
+      /* 动画次数 :设置动画运动的次数 infinite不停的执行*/
+      /* animation-iteration-count: infinite; */
+      /* 动画方向 */
+      /* animation-direction: normal; 按照动画指定的规则 顺序执行 */
+
+      /* animation-direction: reverse; 按照动画指定的规则 反序执行 */
+
+      /* 动画结束时的状态 
+        animation-fill-mode
+        backwards 回到初始状态
+        forwards  停留在动画结束的状态
+       */
+       /* animation-fill-mode: backwards; */
+       animation-fill-mode: forwards;
+    }
+    /*定义动画 
+    keyframes 关键帧
+    格式:
+      如果定义的动画只有两个阶段
+      @keyframes 自定义的动画名称 {
+        from { 
+          要定义动画的样式(开始样式)
+        }
+        to {
+          要定义动画的样式(结束样式)
+        }
+      }
+
+
+      如果动画向定义的比较复杂 (比如下面定义成5个阶段 如果向定义的更加复杂)
+      @keyframes 自定义的动画名称 {
+        0% {}
+        25%{}
+        50%{}
+        75%{}
+        100%{}
+      }
+     */
+
+    @keyframes move {
+      from {
+        transform: translate(0, 0);
+      }
+      to {
+        transform: translate(500px, 0);
+      }
+     
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cube">
+    <span class="ball"></span>
+  </div>
+</body>
+
+</html>
