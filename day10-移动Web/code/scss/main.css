@@ -1,0 +1,16 @@
+article a {
+  color: blue;
+}
+
+article a :hover {
+  color: red;
+}
+
+body {
+  background-color: #fff;
+}
+
+.cc {
+  background-color: red;
+}
+/*# sourceMappingURL=main.css.map */
