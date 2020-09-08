@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+         表单:
+             本地的数据提交到远程服务器
+
+         属性:
+            name 
+                 1.表单取名
+                 2.分组 比如单选按钮 多选按钮 名字相同一组
+
+            value  设置表单默认值
+
+            checked 专门用来设置 单选和多选按钮 默认选中状态
+
+            maxlength 限定输入框中文字的最大字符数量
+
+
+            id属性: 为html标签设置唯一标识(相当于身份证,不要重复)
+
+            label标签:扩大点击范围的效果  for的值 可以设置某个按钮id值
+
+
+
+
+     -->
+    <form action="target.html">
+        文本框: 
+        <input type="text" placeholder="请输入用户名" name="uName"> <br><br>
+
+        密码框: 
+        <input type="password" placeholder="请输入密码" name="uPwd"> <br><br>
+
+        下拉框: 
+        <select name="uArea">
+            <option value="南京">南京</option>
+            <option value="苏州">苏州</option>
+            <option value="无锡">无锡</option>
+            <option value="常州" selected>常州</option>
+        </select><br><br>
+
+        单选按钮:
+        <input type="radio" value="男" checked id="r1" name="gender">
+        <label for="r1">男</label>
+        <input type="radio" value="女" id="r2" name="gender">  
+        <label for="r2">女</label><br><br>
+
+        多选按钮:
+        <input type="checkbox" value="coding" id="c1" checked name="love">
+        <label for="c1">coding</label> 
+        <input type="checkbox" value="游泳" id="c2" name="love">
+        <label for="c2">游泳</label><br> <br>
+
+        文本域:
+        <textarea cols="30" rows="10" placeholder="个性介绍" name="uDesc" ></textarea><br> <br>
+
+
+        <input type="submit" value="提交">
+        <input type="reset"  value="重置">
+        <button>普通按钮</button>
+
+    </form>
+
+
+
+</body>
+
+</html>

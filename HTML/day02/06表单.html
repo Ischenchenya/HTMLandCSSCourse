@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+         表单:
+             本地的数据提交到远程服务器
+
+         属性:
+            name 
+                 1.表单取名
+                 2.分组 比如单选按钮 多选按钮 名字相同一组
+
+            value  设置表单默认值
+
+            checked 专门用来设置 单选和多选按钮 默认选中状态
+
+            maxlength 限定输入框中文字的最大字符数量
+     -->
+    <form action="target.html">
+        文本框: 
+        <input type="text" placeholder="请输入用户名" name="uName" maxlength="8"> <br><br>
+
+        密码框: 
+        <input type="password" placeholder="请输入密码" name="uPwd"> <br><br>
+
+        下拉框: 
+        <select name="uArea">
+            <option value="南京">南京</option>
+            <option value="苏州">苏州</option>
+            <option value="无锡">无锡</option>
+            <option value="常州" selected>常州</option>
+        </select><br><br>
+
+        单选按钮:
+        <input type="radio" value="男" checked name="gender"> 男
+        <input type="radio" value="女" name="gender"> 女<br><br>
+
+        多选按钮:
+        <input type="checkbox" value="coding"  checked name="love"> coding
+        <input type="checkbox" value="游泳" name="love"> 游泳 <br> <br>
+
+        文本域:
+        <textarea cols="30" rows="10" placeholder="个性介绍" name="uDesc" ></textarea><br> <br>
+
+
+        <input type="submit" value="提交">
+        <input type="reset"  value="重置">
+        <button>普通按钮</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
