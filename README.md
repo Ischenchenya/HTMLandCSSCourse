@@ -37,17 +37,13 @@ this repository will study  html and css
 + [ ] 基础标签
 
     1. [✔️]  排版标签
-
     2. [✔️]  绝对路径和相对路径
-
     3. [✔️]  多媒体标签(图片、音频、视频)
               :heavy_plus_sign:  图片格式,应用场景,特点
               :heavy_plus_sign:  图片格式   jpg jpeg png gif webP base64
-          
     4. [✔️]  超链接标签
-
-          4.1 [ ] :heavy_plus_sign:  拨打电话 H5应用
-          4.2 [ ] :heavy_plus_sign:  发送邮件
+    4.1 [ ] :heavy_plus_sign:  拨打电话 H5应用
+    4.2 [ ] :heavy_plus_sign:  发送邮件
 
     5. [✔️]  HTML实体符号
 
