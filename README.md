@@ -1,23 +1,5 @@
 # HTML and CSS
 
-this repository will study  html and css
-
-## 二级知识点
-
-+ [ ] 准备工作
-
-    1. [x]  四级知识点未完成在课程中
-    2. [x]  四级知识点已完成在课程中
-    3. [x] :heavy_minus_sign:四级知识点已完成未在课程中
-    4. [ ] :heavy_minus_sign:四级知识点未完成未在课程中
-
-+ [ ] 三级知识点已完成
-
-    1. [ ]  四级知识点未完成在课程中
-    2. [x]  四级知识点已完成在课程中
-    3. [x] :heavy_minus_sign:四级知识点已完成未在课程中
-    4. [ ] :heavy_minus_sign:四级知识点未完成未在课程中
-
 ## HTML
 
 + [x] 准备工作
