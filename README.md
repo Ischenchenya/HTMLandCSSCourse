@@ -25,7 +25,7 @@ this repository will study  html and css
     1. [x]  安装编辑器
     2. [x]  编辑器的简单使用
     3. [x]  安装浏览器
-    4. [x ]  浏览器的简单使用
+    4. [x]  浏览器的简单使用
 
 + [x] 语法规则
 
