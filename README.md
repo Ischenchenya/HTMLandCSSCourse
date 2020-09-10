@@ -46,8 +46,8 @@ this repository will study  html and css
           
     4. [✔️]  超链接标签
 
-          [ ] :heavy_plus_sign:  拨打电话 H5应用
-          [ ] :heavy_plus_sign:  发送邮件
+          4.1 [ ] :heavy_plus_sign:  拨打电话 H5应用
+          4.2 [ ] :heavy_plus_sign:  发送邮件
 
     5. [✔️]  HTML实体符号
 
