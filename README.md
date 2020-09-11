@@ -41,5 +41,6 @@
 	+ [x] 单选框
 	+ [x] 复选框
 	+ [x] 下拉框(select标签)
+	+ [x] 多行文本
 	+ [x] 按钮
 	+ [x] 其他标签(fieldset、legend)
