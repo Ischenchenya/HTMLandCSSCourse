@@ -1,24 +1,5 @@
 # HTML and CSS
 
-this repository will study  html and css
-
-## HTML
-
-* [x] 准备工作
-
-  + [x]  安装编辑器
-  + [x]  编辑器的简单使用
-  + [x]  安装浏览器
-  + [x]  浏览器的简单使用
-
-* [x] HTML简介
-
-  + [x]  什么是网页
-	+ [x]  什么是HTML
-	+ [x]  常用浏览器
-	+ [x]  浏览器内核
-	+ [x]  Web标准组成
-
 * [x] HTML语法规则
 
   + [x]  标签的构成
