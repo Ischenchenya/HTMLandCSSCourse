@@ -1,0 +1,11 @@
+IP:172.16.1.25
+网卡型号:	Realtek PCIe GbE Family Controller
+物理地址(MAC):00-2B-67-27-92-EF
+
+
+
+
+
+
+
+
