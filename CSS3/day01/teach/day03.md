@@ -52,7 +52,9 @@
 Windows 系统字体
 
 - 宋体（SimSun） 默认的**有衬线字体**
+
 - 微软雅黑（Microsoft Yahei）默认的**无衬线字体**
+
 - Arial 只针对英文的**无衬线字体**
 
 - Windows系统 - C:\Windows\Fonts 目录中可以查看全部字体
@@ -67,8 +69,6 @@ Mac OS 系统字体
 - Helvetica 只针对英文的**无衬线字体**
 
 ### 字体设置规则
-
-
 
 #### 通过 font-family 属性 设置**单个字体**
 
