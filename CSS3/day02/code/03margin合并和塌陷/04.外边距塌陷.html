@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>外边框塌陷</title>
+    <style>
+         * {
+             margin: 0;
+             padding: 0;
+             border: 0;
+         }
+         div {
+             margin: 0 auto;
+         }
+         .box1 {
+             width: 800px;
+             height: 80px;
+             background-color: aqua;
+             /* border: 1px solid transparent; */
+             overflow: hidden;
+         }
+         .box2 {
+             width: 600px;
+             height: 60px;
+             margin-top: 10px;
+             background-color: pink;       
+         }
+    </style>
+</head>
+<body>
+      <!-- 注意自己电脑分辨率和本文显示是否正常 -->
+      <div class="box1">
+        <div class="box2"></div>
+      </div>
+      
+</body>
+</html>
