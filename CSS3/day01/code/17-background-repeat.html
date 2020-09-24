@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-repeat</title>
+    <style>
+        div {
+            width: 980px;
+            height: 500px;
+            border: 1px solid pink;
+            background-image: url(./imgs/bg5.jpg);
+        }
+        .box1 {
+            background-repeat: space;
+        }
+
+        .box2 {
+            background-repeat: round;
+        }
+        .box3 {
+            background-repeat: no-repeat space;
+            /* background-repeat: space no-repeat; */
+            /* background-repeat: round no-repeat; */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>均匀分布 设定值space</h3>
+    <div class="box1"></div>
+    <h3>缩放分布 设定值round</h3>
+    <div class="box2"></div>
+    <h3>两个值的设定</h3>
+    <div class="box3"></div>
+</body>
+
+</html>
