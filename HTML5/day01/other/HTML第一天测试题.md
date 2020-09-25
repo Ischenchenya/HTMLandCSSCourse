@@ -60,11 +60,11 @@
 
 ##### 8. 下列关于 HTML 的超链接形式正确的是（B）
 
-- [ ] \<a name=" http://www.czxy.com/">传智主页</a>
+- [ ] \<a name=" http://www.czxy.com/">传智主页\</a>
 
-- [ ] \<a href=" http://www.czxy.com/">传智主页</a>
+- [ ] \<a href=" http://www.czxy.com/">传智主页\</a>
 - [ ] \<a> http://www.czxy.com/\</a>
-- [ ] \<a url=" http://www.czxy.com/">传智主页</a>
+- [ ] \<a url=" http://www.czxy.com/">传智主页\</a>
 
 ##### 9. 关于列表描述的错误的是(C)
 
