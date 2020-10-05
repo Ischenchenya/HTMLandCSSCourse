@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-过度效果-延时</title>
+    <style>
+        .box {
+            width: 150px;
+            height: 100px;
+            background-color: #0094ff;
+            /* 过渡效果：样式变化的时长 */
+            transition-duration: 1s;
+            /* 过渡曲线：过渡效果的速度变化曲线 */
+            /* 匀速 linear */
+            /* transition-timing-function: linear; */
+
+            /* 逐渐慢下来 ease */
+            /* transition-timing-function: ease; */
+
+            /* 加速 ease-in */
+            transition-timing-function: ease-in;
+
+            /* 减速 ease-out */
+            /* transition-timing-function: ease-out; */
+
+            /* 加速后减速 ease-in-out */
+            transition-timing-function: ease-in-out;
+
+        }
+        .box:hover {
+            width: 600px;
+            height: 350px;
+        }
+    </style>
+</head>
+<body>
+    <h3>过渡效果</h3>
+    <div class="box"></div>
+</body>
+</html>
