@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 定位 - 固定定位</title>
+  <style>
+    body {
+      padding: 0 40px;
+      background: #f4f4f4;
+    }
+
+    .main{
+      display: block;
+      margin: 2px auto;
+    }
+    /* 固定定位：fixed 相对于 浏览器窗口 偏移 
+       1.脱离文档流，移动后，原来的位置不保留
+       2.如果不设置任何偏移量，则留在原地不动
+       3.如果设置偏移量，最好 只设置 两个 就够了，可以用来 定位在窗口的 不同位置
+        但是，如果设置了 方向相对的 偏移量，以 left 和 top 为准。
+    */
+    .sidebar{
+      position: fixed;
+
+      /* left: 10px; */
+      /* top: 20px; */
+      /* bottom: 20px; */
+
+      right: 20px;
+      top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img class="main" src="./images/jd.png" alt="">
+  <img class="sidebar" src="./images/jdside.jpg" alt="">
+</body>
+
+</html>

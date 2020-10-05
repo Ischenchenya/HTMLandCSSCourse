@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 定位 - 定位层叠</title>
+  <style>
+    body {
+      padding: 0 20px;
+    }
+
+    .father {
+      width: 500px;
+      height: 180px;
+      background-color: #0094ff;
+      /* 之所以设置 父元素 为 相对定位，是为了待会实验 子div 使用绝对定位时的 定位层叠 */
+      position: relative;
+      color: #fff;
+    }
+
+    .father>div{
+      width: 100px;
+      height: 50px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 50px;
+      position: absolute;
+    }
+
+    .son1{
+      background-color: red;
+      left: 10px;
+      top:20px;
+      z-index: 10000;
+    }
+
+    .son2{
+      background-color: blue;
+      left:90px;
+      top:20px;
+      z-index: 20;
+    }
+
+    .son3{
+      background-color: green;
+      left:180px;
+      top:20px;
+      z-index: 30000;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>定位层叠</h3>
+  <p>定位的元素通过 top、right、bottom、left 调整位置后，可能会产生元素的重叠，进而部分内容会被遮挡，通过 z-index 属性可以调整重叠元素的层级。</p>
+
+  <p>
+    1.默认情况：html标签的 书写顺序，越靠后，层次越高。
+  </p>
+
+  <div class="father">
+    <div class="son1">M416</div>
+    <div class="son2">AWM</div>
+    <div class="son3">AK47</div>
+  </div>
+</body>
+
+</html>

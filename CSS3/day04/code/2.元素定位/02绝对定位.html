@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 定位 - 绝对定位</title>
+  <style>
+    body {
+      padding: 0 40px;
+      font-size: 24px;
+    }
+
+    .grand {
+      width: 500px;
+      height: 300px;
+      background-color: #0094ff;
+
+      /* position: relative;
+      left: 5px;
+      top: 5px; */
+    }
+
+    .parent {
+      width: 350px;
+      height: 200px;
+      background-color: orange;
+
+      /* position: relative; */
+      /* top: 30px;
+      left: 60px; */
+    }
+
+    /* 绝对定位的特点：
+       1.相对于离自己最近的已经定位的祖元素的位置
+       2.所有祖元素都未设置定位，那么直接参考浏览器窗口进行偏移
+       3.绝对定位 会让元素 脱离文档流，不再保存原来的位置
+       4.绝对定位 如果不设置偏移量，则留在原地不动
+     */
+    .son {
+      width: 180px;
+      height: 100px;
+      background-color: darkgreen;
+      color: #fff;
+      
+      position: absolute;
+      top: 30px;
+      left: 60px;
+    }
+
+  </style>
+</head>
+<body>
+  <h3>绝对定位（absolute）</h3>
+  <p>绝对定位，<mark>以距离自己最近的已定位(非static)的祖先元素为参照原点</mark>，通过 top、right、bottom、left 调整位置。</p>
+
+  <div class="grand">
+    <div class="parent">
+      <div class="son"></div>
+      <span>讨厌~~！</span>
+    </div> 
+  </div>
+
+</body>
+</html>
