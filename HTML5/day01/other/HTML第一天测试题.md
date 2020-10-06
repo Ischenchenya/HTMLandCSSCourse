@@ -21,7 +21,6 @@
 ##### 3. 关于标签下列说法正确的是 ( B )
 
 - [ ] A、P1 是段落标签
-
 - [ ] B、H1 是标题标签
 - [ ] C、Hr 是换行标签
 - [ ] D、Br 是一条直线
@@ -38,7 +37,7 @@
 
 - [ ] A、图片标签是用来显示图片的
 
-- [ ] B、图片标签常见的形式\<img src=”图片的url”>
+- [ ] B、图片标签常见的形式`<img src=”图片的url”>`
 - [ ] C、图片标签的属性有 alt 图片不显示时显示的文字，title 图片的标题
 - [ ] D、height 和 width 可以设置图片的宽高
 
@@ -60,11 +59,10 @@
 
 ##### 8. 下列关于 HTML 的超链接形式正确的是（B）
 
-- [ ] A、<a name=" http://www.czxy.com/&quot;>传智主页\</a>
-
-- [ ] B、<a href=" http://www.czxy.com/&quot;>传智主页\</a>
-- [ ] C、\<a> http://www.czxy.com/\</a>
-- [ ] D、<a url=" http://www.czxy.com/&quot;>传智主页\</a>
+- [ ] A、`<a name=" http://www.czxy.com/&quot;>传智主页</a>`
+- [ ] B、`<a href=" http://www.czxy.com/&quot;>传智主页</a>`
+- [ ] C、`<a> http://www.czxy.com/</a>`
+- [ ] D、`<a url=" http://www.czxy.com/&quot;>传智主页</a>`
 
 ##### 9. 关于列表描述的错误的是(C)
 
@@ -121,8 +119,6 @@
 ##### 2. 完成下面效果图的制作
 
 ![tupian](./assets/b2效果图.png)
-
-
 
 ##### 3. 完成下面效果图的制作
 
