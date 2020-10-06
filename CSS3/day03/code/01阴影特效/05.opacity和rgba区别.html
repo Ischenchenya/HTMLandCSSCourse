@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opacity和rgba区别</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: #ccc;
+            margin-top: 100px;
+            opacity: 0.5;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin-top: 100px;
+            background-color: rgba(0,0,0,0.5);
+        }
+        
+        .area {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+      <div class="box1">
+        <div class="area"></div>
+        opacity
+      </div>
+
+      <div class="box2">
+          <div class="area"></div>
+        rgba
+      </div>
+</body>
+</html>
