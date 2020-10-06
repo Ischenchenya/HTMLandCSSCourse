@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>后代选择器</title>
+  <!-- 后代选择器：设置 某标签的所有指定后代标签 -->
+  <style>
+    ul li{
+      color: red;
+    }
+    ol li{
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>英雄列表</h3>
+  <ul>
+      <li>孙悟空</li>
+      <li>貂蝉</li>
+      <li>
+        <ul>
+          <li>大乔</li>
+          <li>吕布</li>
+        </ul>
+      </li>
+  </ul>
+
+  <h3>孙悟空 技能</h3>
+  <ol>
+      <li>腾云突击</li>
+      <li>大闹天宫</li>
+  </ol>
+</body>
+
+</html>

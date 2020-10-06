@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 伪类 - 焦点伪类</title>
+  <style>
+    body {
+      padding: 0 40px;
+    }
+    /* 
+      强调：元素获取焦点，可以用 鼠标点击，也可以用 tab键 切换
+     */
+    input:focus{
+      border: 2px solid #0094ff;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>焦点伪类</h3>
+  <p>焦点伪类是输入框获得焦点时的状态。</p>
+
+  单身年限: <input type="text"><br>
+  寂寞程度: <input type="text">
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>:not 伪类选择器</title>
+  <style>
+    body {
+      padding: 0 40px;
+    }
+
+    .box {
+      width: 80px;
+      height: 26px;
+      border: 1px solid #000;
+      background-color: #1DD1A1;
+      margin: 10px;
+      text-align: center;
+    }
+    /* 否定伪类选择器 */
+    .box:not(div){
+      background-color: #ff7979;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>:not 伪类选择器（否定选择器）</h3>
+  <p>用来选取 不符合指定选择器的元素 </p>
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+  <p class="box">我是p标签</p>
+</body>
+
+</html>

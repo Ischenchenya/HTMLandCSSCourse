@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 过渡 - 时长</title>
+  <style>
+    body {
+      padding: 0 20px;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: #0094ff;
+
+      /* 过渡时长：样式变化时的时长 */
+      transition-duration: 2s;
+    }
+
+    /* 鼠标悬停 伪类选择器 */
+    .box:hover {
+      width: 300px;
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <h4>过渡效果</h4>
+  <p>随便定义一个盒子，当鼠标 hover 时，将其宽高变大。</p>
+  <div class="box"></div>
+</body>
+
+</html>
