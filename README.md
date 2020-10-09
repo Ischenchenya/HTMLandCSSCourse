@@ -22,13 +22,13 @@
 
 * [x] 常用标签
   * [x] 排版标签
-  	* [x] header、nav、main、aside、footer、section
-  	* [x] h1*h6
-  	* [x] p
-  	* [x] br
+    * [x] header、nav、main、aside、footer、section
+    * [x] h1-h6
+    * [x] p
+    * [x]  br
   * [x] 文本格式化标签
-  	* [x] b和strong
-  	* [x] i和em
+    * [x]  b和strong
+    * [x]  i和em
 
 * [x] 绝对路径和相对路径
   * [x] 绝对路径
@@ -70,19 +70,19 @@
 
 ## CSS3
 
-* [ ] CSS3简介
+* [x] CSS3简介
   * [x] 什么是CSS
   * [x] CSS的发展历程
   * [x] CSS语法介绍
   * [x] CSS的注释
 
-* [ ] CSS的基本选择器
+* [x] CSS的基本选择器
   * [x] 标签选择器
   * [x] ID选择器
   * [x] 类选择器
   * [x] 通配符选择器
 
-* [ ] CSS的文字属性
+* [x] CSS的文字属性
   * [x] font*family属性
   * [x] font*size属性
   * [x] font*weight属性
@@ -92,7 +92,7 @@
     * [x]  ~~衬线字体~~
     * [x] ~~非衬线字体~~
 
-* [ ] CSS的文本外观属性
+* [x] CSS的文本外观属性
   * [x] color属性
   * [x] text-decoration属性
   * [x] line-height属性
@@ -101,17 +101,17 @@
   * [x] text-align属性
   * [x] text-indent属性
 
-* [ ] CSS的书写方式
+* [x] CSS的书写方式
   * [x] 行内样式
   * [x] 内嵌样式
   * [x] 外链样式
 
-* [ ] CSS的书写方式
+* [x] CSS的书写方式
   * [x] 行内样式
   * [x] 内嵌样式
   * [x] 外链样式
 
-* [ ] CSS复合选择器
+* [x] CSS复合选择器
 
   * [x] 后代选择器
   * [x] 并集选择器
@@ -123,13 +123,13 @@
   * [x] 状态伪类选择器
   * [x] 伪元素选择器(主要after before)
 
-* [ ] CSS显示模式
+* [x] CSS显示模式
   * [x] 块级元素
   * [x] 行内元素
   * [x] 行内块元素
   * [x] 显示模式的转换
 
-* [ ] CSS背景属性
+* [x] CSS背景属性
   * [x] 背景颜色background-color
   * [x] 背景图片background-image
   * [x] 背景平铺background-repeat
@@ -138,12 +138,12 @@
   * [x] 背景复合属性 background
   * [x] 背景尺寸background-size
 
-* [ ] CSS三大特性
+* [x] CSS三大特性
   * [x] 继承性
   * [x] 层叠性
   * [x] 优先级
 
-* [ ] 盒子模型
+* [x] 盒子模型
   * [x] 盒子模型的组成
   * [x] 盒子模型的计算
   * [x] margin属性
@@ -153,7 +153,7 @@
   * [x] 解决上下外边距合并
   * [x] 解决盒子塌陷(子盒子margin把父盒子拉下来)
 
-* [ ] CSS浮动
+* [x] CSS浮动
   * [x] 浮动的使用场景
   * [x] 浮动的特点
   * [x] 清除浮动的方式
@@ -161,13 +161,13 @@
     * [x] overflow属性法
     * [x] after伪元素法(主要)
 
-* [ ] 切图基本功
+* [x] 切图基本功
   * [x] 基本切图
   * [x] PS插件cutterman切图
   * [x] 像素大厨标注工具的使用
   * [x] 蓝湖或摹客切图工具使用
 
-* [ ] CSS定位
+* [x] CSS定位
   * [x] 定位方式
     * [x] 相对定位 relative
     * [x] 绝对定位 absolute
@@ -175,17 +175,17 @@
     * [x] 粘性定位 sticky
   * [x] 定位层级 zIndex
 
-* [ ] 元素的显示和隐藏
+* [x] 元素的显示和隐藏
   * [x] overflow
   * [x] display
   * [x] visibility
 
-* [ ] 网络图片进阶
+* [x] 网络图片进阶
   * [x] 精灵图
   * [x] 网络字体
   * [x] 字体图标
 
-* [ ] 变换
+* [x] 变换
   * [x] 2D变换
     * [x] 平移变换
     * [x] 旋转变换
@@ -196,6 +196,6 @@
     * [x] 旋转变换
     * [x] 缩放变换
 
-* [ ] 动效
+* [x] 动效
   * [x] 过渡transition
   * [x] 动画animation
