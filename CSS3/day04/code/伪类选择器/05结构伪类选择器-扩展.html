@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>结构伪类选择器-扩展</title>
+  <style>
+    ul {
+      list-style: none;
+    }
+
+    p {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+
+    li {
+      width: 80px;
+      height: 26px;
+      border: 1px solid #000;
+      background-color: #1DD1A1;
+      margin: 10px;
+      text-align: center;
+    }
+
+    /* 任务1：设置 序号为偶数的 li标签 */
+    /* ul>li:nth-child(even){
+      background-color: #ff7979;
+    } */
+
+    /* 任务2：设置 序号为奇数的 li标签 */
+    /* ul>li:nth-child(odd) {
+      background-color: #ff7979;
+    } */
+
+    /* 任务3：设置 所有序号 li标签 */
+    /* 
+       n 在公式中直接使用，是从 0 开始，直到最后一个元素的 序号
+     */
+    /* ul>li:nth-child(n) {
+      background-color: #ff7979;
+    } */
+
+    /* 任务4：设置 序号为5的倍数的 li标签 */
+    /* ul>li:nth-child(5n) {
+      background-color: #ff7979;
+    } */
+
+    /* 任务5：设置 从第5个开始到最后的 li标签 */
+    /* ul>li:nth-child(n+5) {
+      background-color: #ff7979;
+    } */
+
+    /* 任务6：设置 前5个 li标签 */
+    ul>li:nth-child(-n+5) {
+      background-color: #ff7979;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>nth-child(n)</h3>
+  <p>
+    n可以是数字<br>
+    n可以是关键字 even(偶数) / odd(奇数)<br>
+    n可以是算数公式<br>
+  </p>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+  </ul>
+</body>
+
+</html>

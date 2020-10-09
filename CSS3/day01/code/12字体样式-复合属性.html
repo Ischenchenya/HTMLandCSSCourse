@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>字体样式-字体复合属性</title>
+  <!-- 需求：设置 div 斜体，加粗，30px大小，宋体 -->
+  <style>
+    /* div{
+      font-style: italic;
+      font-weight: 700;
+      font-size: 30px;
+      font-family: '宋体';
+    } */
+
+    /* 字体复合属性：必须按照 要求的 顺序来书写 */
+    div{
+      /* font:italic 700 30px '隶书'; */
+      /* 可以省略前面的属性，但 最后的 字体大小和字体系列 绝对不能省略 */
+      font:50px '宋体';
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    A:见到你真高兴 B: 嗯，我也替你高兴
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 装饰 - 文字阴影</title>
+  <style>
+    body {
+      padding: 0 40px 40px;
+    }
+
+    .textbox {
+      width: 280px;
+      height: 100px;
+      padding: 15px;
+      font-size: 30px;
+      border: 1px solid #ccc;
+
+      /*  - 第1个参数，水平偏移量，正值向右，负值向左
+          - 第2个参数，垂直偏移量，正值向下，负值向上
+          - 第3个参数，模糊度，值越大越模糊，不可以为负数
+          - 第4个参数，阴影颜色 */
+
+      text-shadow: 5px 5px 3px #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>盒子阴影</h3>
+  <p>通过 box-shadow 为盒子设置阴影，增强立体感。</p>
+
+  <h4>外阴影</h4>
+  <div class="textbox">
+    你笑起来真好看,像水里的小猪一样
+  </div>
+</body>
+
+</html>

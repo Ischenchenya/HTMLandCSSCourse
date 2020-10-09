@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>并集选择器</title>
+  <style>
+    /* p{
+      color: red;
+    }
+
+    li{
+      color: red;
+    } */
+
+    /* 并集选择器：多个选择器 共享 同一个样式表 
+       不限制 选择器的种类，不同选择器 中间 用 逗号隔开就可以了
+    */
+    p,li,div,.redFont{
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    戏作小诗君一笑，
+    从来佳茗似佳人- 苏轼
+  </p>
+
+  <ul>
+      <li>腾云突击</li>
+      <li>大闹天宫</li>
+  </ul>
+
+  <div>讨厌，死鬼~~</div>
+
+  <h3 class="redFont">你死开~~</h3>
+</body>
+
+</html>

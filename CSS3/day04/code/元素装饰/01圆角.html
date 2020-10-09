@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS 装饰 - 圆角</title>
+  <style>
+    body {
+      padding: 0 40px 40px;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: #0094ff;
+
+      border-radius: 10px;
+    }
+
+    .box2 {
+      width: 200px;
+      height: 100px;
+      background-color: #0094ff;
+
+      /* 分别设置每个角的圆角弧度 */
+      /* 顺序对应为 左上 右上 右下 左下 */
+      border-radius: 10px 20px 30px 40px;
+    }
+
+
+    .box3 {
+      width: 200px;
+      height: 100px;
+      background-color: #0094ff;
+
+      /* 设置对角的圆角弧度 */
+      /* 顺序对应为 左上右下 右上左下 */
+      border-radius: 20px 40px;
+    }
+
+
+    .box4 {
+      width: 200px;
+      height: 200px;
+      background-color: #0094ff;
+
+      /* 正圆 */
+      border-radius: 50%;
+    }
+
+    .box5 {
+      width: 100px;
+      height: 200px;
+      background-color: #0094ff;
+
+      /* 椭圆 */
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>设置盒子圆角</h3>
+  <p>通过 border-radius 为盒子设置圆角，也能因此显示正圆或椭圆效果。</p>
+
+  <h4>基本用法</h4>
+  <div class="box"></div>
+
+  <h4>分别设置每个角的弧度</h4>
+  <div class="box2"></div>
+
+  <h4>设置对角的圆角弧度</h4>
+  <div class="box3"></div>
+
+  <h4>正圆</h4>
+  <p>盒子必须是正方形</p>
+  <div class="box4"></div>
+
+
+  <h4>椭圆形</h4>
+  <p>盒子必须是长方形</p>
+  <div class="box5"></div>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+/* 页面公共样式 -------------------*/
+div,ul,li,h1,h2,h3,p,dl,dd{
+  /* 设置盒子宽高 包含 padding 和 border */
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+/* 背景设置为精灵图 */
+.sprites{
+  background-image: url(../images/sprites.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+}
+
+/* 版心 */
+.wrapper{
+  width: 1240px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+
+/* 顶部导航区 ------------------------*/
+.xtx_topnav{
+  height: 43px;
+  background-color: #333;
+}
+
+/* 导航条(菜单) */
+.xtx_topnav .xtx_navs{
+  border: 1px solid blue;
+  line-height: 43px;
+  height: 43px;
+  text-align: right;
+  font-size: 0;
+
+}
+
+.xtx_topnav .xtx_navs li{
+  display: inline-block;
+  font-size: 14px;
+}
+
+.xtx_topnav .xtx_navs li a{
+  color: #dcdcdc;
+  border-right: 2px solid #666;
+  padding:0 13px;
+
+  display: inline-block;
+  line-height: 1;
+}
+
+.xtx_topnav .xtx_navs li a:hover{
+  color: #27b99a;
+}
+
+.xtx_topnav .xtx_navs li:last-child a{
+  border:0px;
+}
+
+/* 设置导航中的 手机背景图 来一起试一试 */
+.mobile{
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  /* border: 1px solid #fff; */
+
+  background-position: -160px -70px;
+
+  position: relative;
+  top:3px;
+}
+
+h1{
+  margin: 0;
+}
+
+/* 头部区 ------------------------*/
+.xtx_header{
+  height: 183px;
+  padding:32px 0 20px;
+
+  border: 1px solid #000;
+}
+
+/* 头部区.logo */
+.xtx_logo{
+  width: 143px;
+  height: 129px;
+  margin-left: 50px;
+  background-image: url(../images/logo.png);
+  background-size: contain;
+  float: left;
+
+  /* border: 1px solid #000; */
+}
+
+.xtx_logo a{
+  display: block;
+  height: 100%;
+  /* font-size: 0; */
+  text-indent: -999px;
+
+  /* border: 1px solid #000; */
+}
+
+/* 头部.搜索区 */
+.xtx_search{
+  height: 38px;
+  margin-left: 920px;
+}
+
+/* 头部.搜索区.输入区 */
+.xtx_search_wrapper{
+  width: 264px;
+  height: 38px;
+  padding-left: 39px;
+  border-bottom: 1px solid #e7e7e7;
+
+  /* 设置为 相对定位，但不修改位置，从而保留在原地不动 。
+     目的：是为了让放大镜图标进行绝对定位时，有参考位置
+  */
+  position: relative;
+}
+
+/* 头部.搜索区.输入区.文本框 */
+.xtx_search_wrapper input{
+  width: 190px;
+  height: 90%;
+  font-size: 15px;
+  color: #999;
+  border:0px;
+}
+
+/* 头部.搜索区.输入区.伪元素(放大镜图片) */
+.xtx_search_wrapper::before{
+  content: '';
+  display: block;
+  width: 17px;
+  height: 17px;
+
+  background-image: url(../images/sprites.png);
+  background-size: 400px 400px;
+  background-position: -80px -70px;
+
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+
+/* 头部.搜索区.购物车按钮 */
+.xtx_search .xtx_search_car{
+  display:block;
+  width: 22px;
+  height: 22px;
+
+  float: right;
+  margin: 8px 12px 0 12px;
+
+  background-position: -120px -70px;
+
+  position: relative;
+}
+
+.xtx_search .xtx_search_car i{
+  position: absolute;
+  top:-5px;
+  left:16px;
+
+  padding: 1px 6px;
+  font-size: 13px;
+  background-color: #ea745e;
+  color: #fff;
+
+  border-radius: 40%;
+  font-style: normal;
+}
+
+/* 头部搜索区.导航列表 */
+.xtx_header .xtx_navs{
+  padding-top: 37px;
+  margin-left: 280px;
+  list-style-type: none;
+}
+
+.xtx_header .xtx_navs li{
+  float: left;
+  line-height: 1;
+  font-size: 16px;
+  margin-right: 50px;
+}
+
+.xtx_header .xtx_navs li a:hover,
+.xtx_header .xtx_navs li a.active{
+  color: #5eb69c;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #5eb69c;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    div {
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      border: 5px solid #000;
+      background: #0094ff;
+    }
+
+    /**元素的总宽度 = 160 + 20*2 + 8*2; 总高度 = 80 + 20*2 + 8*2 ; */
+    .content-box {
+      box-sizing: content-box;
+    }
+
+    /** 元素的总宽度 = 160; 总高度 = 80px; */
+    .border-box {
+      box-sizing: border-box;
+    }
+  </style>
+
+  <div class="content-box">
+
+  </div>
+
+  <hr>
+  
+  <div class="border-box">
+
+  </div>
+</body>
+
+</html>

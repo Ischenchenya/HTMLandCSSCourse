@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS 伪类 - 鼠标伪类</title>
+  <style>
+    body {
+      padding: 0 40px;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid #000;
+      height: 30px;
+    }
+
+    th {
+      background-color: #cccccc;
+    }
+
+    /* hover 可用于任意元素 */
+    table {
+      width: 520px;
+      margin-top: 20px;
+      text-align: center;
+
+      /* 合并相邻单元格间的边框 */
+      border-collapse: collapse;
+    }
+
+    /* 鼠标悬停的伪类选择器 */
+    tbody>tr:hover {
+      background-color: #0094ff;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>鼠标伪类</h3>
+  <p>依据鼠标的悬停状态为元素设置样式。</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>序号</th>
+        <th>英雄</th>
+        <th>年龄</th>
+        <th>性别</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>孙悟空</td>
+        <td>20</td>
+        <td>男</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>小乔</td>
+        <td>19</td>
+        <td>女</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>吕布</td>
+        <td>20</td>
+        <td>男</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>貂蝉</td>
+        <td>18</td>
+        <td>女</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
