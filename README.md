@@ -83,10 +83,10 @@
   * [x] 通配符选择器
 
 * [x] CSS的文字属性
-  * [x] font*family属性
-  * [x] font*size属性
-  * [x] font*weight属性
-  * [x] font*style属性
+  * [x] font-family属性
+  * [x] font-size属性
+  * [x] font-weight属性
+  * [x] font-style属性
   * [x] font复合属性
   * [x] ~~字体类型~~
     * [x]  ~~衬线字体~~
