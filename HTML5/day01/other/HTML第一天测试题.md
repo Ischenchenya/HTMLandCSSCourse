@@ -5,7 +5,6 @@
 ##### 1. 下列关于 HTML 描述错误的是（B）
 
 - [ ] A、HTML 就是 Hyper Text Markup Language 翻译成中文就是超文本标记语言
-
 - [ ] B、HTML 的扩展名只能是\*.html
 - [ ] C、HTML 由多个标签组成
 - [ ] D、我们能看到的网页源代码都是 HTML 组成
@@ -13,7 +12,6 @@
 ##### 2. 下面哪个是单标签（D）
 
 - [ ] A、head 标签
-
 - [ ] B、body 标签
 - [ ] C、title 标签
 - [ ] D、br 标签
