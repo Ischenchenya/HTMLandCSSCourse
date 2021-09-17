@@ -1,14 +1,11 @@
 ---
 home: true
 title: Home
-heroImage: /images/bilibili.png
+heroImage: /images/logo.png
 actions:
-  - text: 快速上手 →
+  - text: 快速开始 →
     link: /20210916/
     type: primary
-  - text: 仓库简介
-    link: /guide/
-    type: secondary
 features:
   - title: Simplicity First
     details: Minimal setup with markdown-centered project structure helps you focus on writing.
