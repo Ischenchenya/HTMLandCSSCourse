@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/bilibiliCourse/",
+  base: "/HTMLandCSSCourse/",
   lang: 'en-US',
   title: "bilibli技术分享",
   description: "哔哩哔哩分享的相关及文档",
@@ -46,10 +46,10 @@ module.exports = {
   ],
   markdown: {
     lineNumbers: true,
-      // markdown-it-anchor 的选项
-      anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
-      // markdown-it-toc 的选项
-      toc: { includeLevel: [2, 3] },
+    // markdown-it-anchor 的选项
+    anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
+    // markdown-it-toc 的选项
+    toc: { includeLevel: [2, 3] },
   },
   theme: '@vuepress/default',
   themeConfig: {
@@ -58,6 +58,6 @@ module.exports = {
     navbar: require('./nav'),
     sidebar: require('./sidebar')
   },
-  
+
 }
 
