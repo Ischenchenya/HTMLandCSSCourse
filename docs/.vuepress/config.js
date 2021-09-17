@@ -1,8 +1,8 @@
 module.exports = {
   base: "/HTMLandCSSCourse/",
   lang: 'en-US',
-  title: "bilibli技术分享",
-  description: "哔哩哔哩分享的相关及文档",
+  title: "HTML5&CSS3技术文档",
+  description: "HTML5&CSS3技术文档",
   head: [
     [
       'link',
