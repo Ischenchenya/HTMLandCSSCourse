@@ -1,11 +1,16 @@
 {
   "name": "HTMLandCSSCourse",
   "version": "1.0.0",
-  "description": "HTML5&CSS3技术相关的文档、代码",
+  "description": "## HTML5",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
+  "dependencies": {
+    "@vuepress/theme-default": "^2.0.0-beta.26",
+    "vuepress": "^2.0.0-beta.26"
+  },
+  "devDependencies": {},
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -13,19 +18,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wanlum/bilibiliCourse.git"
+    "url": "git+https://github.com/FEndTeam/HTMLandCSSCourse.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wanlum/bilibiliCourse/issues"
+    "url": "https://github.com/FEndTeam/HTMLandCSSCourse/issues"
   },
-  "homepage": "https://github.com/wanlum/bilibiliCourse#readme",
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.26"
-  },
-  "dependencies": {
-    "@vuepress/theme-default": "^2.0.0-beta.26"
-  }
+  "homepage": "https://github.com/FEndTeam/HTMLandCSSCourse#readme"
 }
