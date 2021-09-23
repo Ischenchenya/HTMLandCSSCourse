@@ -7,10 +7,11 @@
     "doc": "docs"
   },
   "dependencies": {
-    "@vuepress/theme-default": "^2.0.0-beta.26",
+    "@vuepress/theme-default": "^2.0.0-beta.26"
+  },
+  "devDependencies": {
     "vuepress": "^2.0.0-beta.26"
   },
-  "devDependencies": {},
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
