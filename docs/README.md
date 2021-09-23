@@ -1,10 +1,10 @@
 ---
 home: true
 title: Home
-heroImage: /images/bilibili.png
+heroImage: /images/logo.png
 actions:
   - text: 快速上手 →
-    link: /20210916/
+    link: /HTML5/
     type: primary
   - text: 仓库简介
     link: /guide/
