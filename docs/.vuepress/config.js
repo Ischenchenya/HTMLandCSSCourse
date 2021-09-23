@@ -1,8 +1,8 @@
 module.exports = {
   base: "/HTMLandCSSCourse/",
   lang: 'en-US',
-  title: "bilibli技术分享",
-  description: "哔哩哔哩分享的相关及文档",
+  title: "HTML&CSS技术",
+  description: "HTML&CSS分享的相关及文档",
   head: [
     [
       'link',
@@ -49,11 +49,11 @@ module.exports = {
       // markdown-it-anchor 的选项
       anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: "#" },
       // markdown-it-toc 的选项
-      toc: { includeLevel: [2, 3] },
+      toc: { includeLevel: [2] },
   },
   theme: '@vuepress/default',
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.svg',
+    logo: 'https://avatars.githubusercontent.com/u/57422303?s=200&v=4',
     searchMaxSuggestions: 10,
     navbar: require('./nav'),
     sidebar: require('./sidebar')

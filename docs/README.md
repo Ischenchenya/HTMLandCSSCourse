@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo.png
+heroImage: /images/h5c3.png
 actions:
   - text: 快速上手 →
     link: /HTML5/

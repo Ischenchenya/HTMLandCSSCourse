@@ -1,13 +1,18 @@
 module.exports = [
   // SidebarItem
   {
-    text: '如何在Vue中使用JSX',
-    link: '/20210916/',
+    text: '01-HTML',
+    link: '/HTML5/',
     sidebarDepth: 3
   },
   {
-    text: 'canvas教程',
-    link: '/20210917/',
+    text: '02-CSS',
+    link: '/CSS3/',
+    sidebarDepth: 3
+  },
+  {
+    text: '03-Mobile',
+    link: '/Mobile/',
     sidebarDepth: 3
   },
 ]
